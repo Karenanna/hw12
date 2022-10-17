@@ -16,7 +16,7 @@ public class Main {
         System.out.println("задание 1");
         int sumSpend = 0;
         for (int i = 0; i < array.length; i++) {
-            sumSpend = sumSpend + array[i];
+            sumSpend = sumSpend += array[i];
         }
         System.out.println("Сумма трат за месяц составила" + sumSpend + "рублей");
         System.out.println("Задание 2");
@@ -40,14 +40,14 @@ public class Main {
             System.out.println("Минимальная сумма трат за день составила " + maxSpendInDay + "рублей");
             System.out.println("Задание 3");
             int averageSpendInMonth = sumSpend;
-            for (int j = 0; i < array.length; i++) {
+            for (int j = 0; i <=array.length; i++) {
                 averageSpendInMonth = sumSpend / array.length;
             }
             System.out.println("Средная сумма трат за месяц" + averageSpendInMonth + "рубля");
         }
         System.out.println("Задание 4");
         char[] reverseName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = reverseName.length; i>=0; i--) {
+        for (int i= reverseName.length; i>=0; i--) {
             System.out.print(reverseName[i]);
         }
     }
