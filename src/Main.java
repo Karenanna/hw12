@@ -40,9 +40,7 @@ public class Main {
             System.out.println("Минимальная сумма трат за день составила " + maxSpendInDay + "рублей");
             System.out.println("Задание 3");
             int averageSpendInMonth = sumSpend;
-            for (int j = 0; i <= array.length; i++){
                 averageSpendInMonth = sumSpend / array.length;
-            }
             System.out.println("Средная сумма трат за месяц" + averageSpendInMonth + "рубля");
         }
         System.out.println("Задание 4");
